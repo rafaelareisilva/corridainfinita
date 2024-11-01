@@ -4,13 +4,44 @@
              x:Class="corridainfinita.MainPage">
 
     <Grid>
-        <Image Source="fundo1.jpg"
-        Aspect="Fill"/>
+          <HorizontalStackLayout x:Name="HSLayer1">
+                     <Image Source="fundo1.jpg"
+                            Aspect="Fill"
+                           />
+                     <Image Source="fundo1.jpg"
+                            Aspect="Fill"
+                            />
+                     <Image Source="fundo1.jpg"
+                            Aspect="Fill"
+                            />
+              </HorizontalStackLayout>
+
+         <HorizontalStackLayout x:Name="HSLayer2">
+                     <Image Source="fundo2.png"
+                            HorizontalOptions="Fill"
+                           Aspect="Fill"/>
+                     <Image Source="fundo2.png"
+                            HorizontalOptions="Fill"
+                            Aspect="Fill"/>
+                     <Image Source="fundo2.png"
+                            HorizontalOptions="Fill"
+                            Aspect="Fill"/>
+              </HorizontalStackLayout>
+
         
-       
+         <HorizontalStackLayout x:Name="HSLayer3">
+                     <Image Source="chao.png"
+                            HorizontalOptions="Fill"
+                           Aspect="Fill"
+                            />
+                     <Image Source="chao.png"
+                            HorizontalOptions="Fill"
+                            Aspect="Fill"/>
+                     <Image Source="chao.png"
+                            HorizontalOptions="Fill"
+                            Aspect="Fill"/>
+              </HorizontalStackLayout>
         
-        <Image Source="chao.png"
-        Aspect="Fill"/>
         
 
     </Grid>
