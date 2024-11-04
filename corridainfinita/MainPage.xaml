@@ -7,23 +7,29 @@
           <HorizontalStackLayout x:Name="HSLayer1">
                      <Image Source="fundo1.jpg"
                             Aspect="Fill"
+                            VerticalOptions="Fill"
                            />
                      <Image Source="fundo1.jpg"
                             Aspect="Fill"
+                             VerticalOptions="Fill"
                             />
                      <Image Source="fundo1.jpg"
                             Aspect="Fill"
+                             VerticalOptions="Fill"
                             />
               </HorizontalStackLayout>
 
          <HorizontalStackLayout x:Name="HSLayer2">
                      <Image Source="fundo2.png"
+                            Margin="0,200,0,0"
                             HorizontalOptions="Fill"
                            Aspect="Fill"/>
                      <Image Source="fundo2.png"
+                            Margin="0,200,0,0"
                             HorizontalOptions="Fill"
                             Aspect="Fill"/>
                      <Image Source="fundo2.png"
+                            Margin="0,200,0,0"
                             HorizontalOptions="Fill"
                             Aspect="Fill"/>
               </HorizontalStackLayout>
