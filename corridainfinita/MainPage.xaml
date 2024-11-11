@@ -3,27 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="corridainfinita.MainPage">
 
-    <Grid>
-          <HorizontalStackLayout x:Name="HSLayer1">
+       <Grid>
+
+
+              <HorizontalStackLayout x:Name="HSLayer1">
                      <Image Source="fundo1.jpg"
                             Aspect="Fill"
-                            VerticalOptions="Fill"
-                           />
+                            VerticalOptions="Fill"/>
                      <Image Source="fundo1.jpg"
                             Aspect="Fill"
-                             VerticalOptions="Fill"
-                            />
+                            VerticalOptions="Fill"/>
                      <Image Source="fundo1.jpg"
                             Aspect="Fill"
-                             VerticalOptions="Fill"
-                            />
+                            VerticalOptions="Fill"/>
               </HorizontalStackLayout>
 
-         <HorizontalStackLayout x:Name="HSLayer2">
-                     <Image Source="fundo2.png"
-                            Margin="0,200,0,0"
-                            HorizontalOptions="Fill"
-                           Aspect="Fill"/>
+              <HorizontalStackLayout x:Name="HSLayer2">
                      <Image Source="fundo2.png"
                             Margin="0,200,0,0"
                             HorizontalOptions="Fill"
@@ -32,24 +27,34 @@
                             Margin="0,200,0,0"
                             HorizontalOptions="Fill"
                             Aspect="Fill"/>
+                     <Image Source="fundo2.png"
+                            Margin="0,200,0,0"
+                            HorizontalOptions="Fill"
+                            Aspect="Fill"/>
               </HorizontalStackLayout>
 
-        
-         <HorizontalStackLayout x:Name="HSLayer3">
-                     <Image Source="chao.png"
-                            HorizontalOptions="Fill"
-                           Aspect="Fill"
-                            />
+
+              <HorizontalStackLayout x:Name="HSLayer3">
                      <Image Source="chao.png"
                             HorizontalOptions="Fill"
                             Aspect="Fill"/>
                      <Image Source="chao.png"
                             HorizontalOptions="Fill"
                             Aspect="Fill"/>
+                     <Image Source="chao.png"
+                            HorizontalOptions="Fill"
+                            Aspect="Fill"/>
               </HorizontalStackLayout>
-        
-        
 
-    </Grid>
+              <Image Source="leao01.png"
+                     x:Name="imgplayer"
+                     HeightRequest="400"
+                     WidthRequest="280"
+                     VerticalOptions="End"
+                     HorizontalOptions="Start"
+                     Margin="0,0,0,40"/>
+
+
+       </Grid>
 
 </ContentPage>

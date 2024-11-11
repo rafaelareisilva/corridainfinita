@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic;
+﻿using System.Linq.Expressions;
+using Microsoft.VisualBasic;
 
 namespace corridainfinita;
 
@@ -20,7 +21,7 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-		player=new Player();
+		player=new Player(imgplayer);
 		player.Run();
 	}
 
@@ -92,7 +93,8 @@ public partial class MainPage : ContentPage
         base.OnAppearing();
 		Desenha();
     }
-
+     
+  
 
 }
 
