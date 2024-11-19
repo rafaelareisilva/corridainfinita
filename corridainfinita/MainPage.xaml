@@ -4,7 +4,9 @@
              x:Class="corridainfinita.MainPage">
 
        <Grid>
-
+              <Grid.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="OnGridClicked"/>
+              </Grid.GestureRecognizers>
 
               <HorizontalStackLayout x:Name="HSLayer1">
                      <Image Source="fundo1.jpg"
@@ -54,6 +56,7 @@
                      HorizontalOptions="Start"
                      Margin="0,0,0,40"/>
 
+               
 
        </Grid>
 

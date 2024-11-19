@@ -1,4 +1,6 @@
 namespace corridainfinita;
+using FFImageLoading.Maui;
+
 
 public class Animacao
 {
