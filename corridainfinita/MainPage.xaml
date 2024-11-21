@@ -55,7 +55,13 @@
                      VerticalOptions="End"
                      HorizontalOptions="Start"
                      Margin="0,0,0,40"/>
-
+              
+              <Image Source="inimigo.png"
+                     HeightRequest="100"
+                     VerticalOptions="End"
+                     HorizontalOptions="Start"
+                     Margin="330,0,0,125"
+                    />
                
 
        </Grid>
